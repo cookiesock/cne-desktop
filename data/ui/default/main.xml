@@ -1,0 +1,21 @@
+<main color="#666666">
+	<topmenu name="topMenu">
+		<option label="Test">
+			<child label="child1" callback="childFunc"/>
+			<child label="child2" callback="childFunc2"/>
+		</option>
+		
+		<option label="Test2">
+			<child label="child3" callback="childFunc3"/>
+			<child label="child4" callback="childFunc4"/>
+		</option>
+		
+		<option label="Test3">
+			<child label="child5" callback="childFunc5"/>
+			<child label="child6" callback="childFunc6"/>
+		</option>
+	</topmenu>
+
+	<checkbox name="checkboxThing" x="10" y="35" text="Test Checkbox" checked="false" callback="checkFunc"/>
+	<button name="buttonThing" x="10" y="65" text="Test Button" callback="testFunc"/>
+</main>
