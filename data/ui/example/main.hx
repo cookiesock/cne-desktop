@@ -1,5 +1,7 @@
-function create() {
+function onPostLoad() {
 	trace('ass');
+
+	trace(buttonThing.x, buttonThing.y);
 }
 
 function childFunc() {
@@ -17,3 +19,6 @@ function checkFunc() {
 function testFunc() {
 	trace('test func called');
 }
+
+function exitFunc()
+	FlxG.switchState(new MainMenuState());

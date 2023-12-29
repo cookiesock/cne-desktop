@@ -1,0 +1,26 @@
+<main color="#666666">
+	<topmenu name="topMenu">
+		<option label="File">
+			<child label="Exit" onselect="exitFunc"/>
+		</option>
+
+		<option label="Test">
+			<child label="child1" onselect="childFunc"/>
+			<child label="child2" onselect="childFunc2"/>
+		</option>
+		
+		<option label="Test2">
+			<child label="child3" onselect="childFunc3"/>
+			<child label="child4" onselect="childFunc4"/>
+		</option>
+		
+		<option label="Test3">
+			<child label="child5" onselect="childFunc5"/>
+			<child label="child6" onselect="childFunc6"/>
+		</option>
+	</topmenu>
+
+	<checkbox name="checkboxThing" x="10" y="35" text="Test Checkbox" checked="false" callback="checkFunc"/>
+	<button name="buttonThing" x="10" y="65" text="Test Button" callback="testFunc" goto="/test"/>
+	<dropdown name="dropdownThing" x="10" y="110" options="test,testagain,anotherone" index="0"/>
+</main>

@@ -1,0 +1,10 @@
+<main color="#666666">
+	<topmenu name="topMenu">
+		<option label="ass">
+			<child label="yurr3" callback="yurrFunc3"/>
+			<child label="yurr4" callback="yurrFunc4"/>
+		</option>
+	</topmenu>
+
+	<button name="buttonThing" x="10" y="35" text="boobies" callback="boobyFunc" goto="/main"/>
+</main>
